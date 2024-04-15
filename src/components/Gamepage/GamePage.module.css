@@ -1,0 +1,13 @@
+.selectNum {
+   margin-top: -15px;
+   margin-left: 1050px;
+      font-weight: bold;
+      text-wrap: nowrap;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }

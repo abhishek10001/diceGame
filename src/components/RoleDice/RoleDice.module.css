@@ -1,0 +1,65 @@
+.roledice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 250px;
+    text-align: center;
+    
+}
+.diceface p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+.buttn{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.buttn .srButton{
+    
+    width: 228px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: 0.4s ease-in;
+    border: 1px solid black;
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+        transition: 0.3s ease-in;
+        color: black;
+    }
+}.diceface button{
+    background-color: white;
+    border: none;
+}
+.buttn .rButton{
+    
+    width: 228px;
+    height: 44px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: 0.4s ease-in;
+    border: 1px solid black;
+    &:hover {
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid white;
+        transition: 0.3s ease-in;
+        color:white;
+    }
+}.diceface button{
+    background-color: white;
+    border: none;
+}
+

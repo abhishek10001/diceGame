@@ -1,0 +1,13 @@
+.landing img{
+    height: 552px;
+    width: 662px;
+
+}
+
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0 auto;
+    height: 100vh;
+}

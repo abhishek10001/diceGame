@@ -1,0 +1,32 @@
+.playNow_btn {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 50px;
+    transition: 0.4s ease-in;
+    border: 1px solid black;
+    top: 120px;
+    border-radius: 5px;
+    font-weight: bold;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+        transition: 0.3s ease-in;
+        color: black;
+    }
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.ButtonContainer {
+    width: 528px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+}
